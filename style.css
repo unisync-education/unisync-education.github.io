@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Overpass:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+:root {
+    --primary: #5460d0;
+    --accent: #E8594E;
+     --primary-hover: #5f6ce7;
+     --primary-focus: #4a55b3;
+    --primary-bg: rgba(23, 23, 23, 1);
+--bg-dark: rgb(15, 15, 15);
+--bg-light: rgba(31, 31, 31, 1);
+    --primary-text: #fafafa;
+    --border-transparent: rgba(181, 181, 181, 0.101);
+}
+body, html {
+    background-color: var(--primary-bg);
+    font-family: "Overpass";
+    margin: 0;
+    height: 100%;
+    min-height: 100dvh;
+}
+
+input {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-style: none;
+    border-radius: .5rem;
+    background-color: rgb(58, 57, 59);
+   border-color: rgb(72, 75, 77);
+   color: white;
+   border-style: solid;
+   border-width: 1px;
+   transition: all 0.5s;
+}
+
+button {
+    padding: 0.5rem;
+    border-radius: .5rem;
+    background: var(--primary);
+    color: white;
+    border-style: none;
+    cursor: pointer;
+     transition: all 0.5s;
+}
+
+button:hover {
+    background: var(--primary-hover);
+}
+button:focus:active {
+    background: var(--primary-focus);
+}
+
+button:disabled {
+    background-color: grey;
+}
+* {
+     font-family: "Overpass";
+     color: var(--primary-text)
+}
+*:focus {
+    outline: none
+}
+
+input:focus {
+    border-color: rgb(215, 223, 233);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+p {
+    margin: 0px;
+}
+
+span {
+    font-size: small;
+    color: var(--primary);
+    background-color: #5460d032;
+    padding: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-radius: 1rem;
+}
